@@ -1,6 +1,6 @@
 #!/bin/bash
 # Configure nginx
-cat > /etc/nginx/sites-available/default << 'EOF'
+cat > /etc/nginx/nginx.conf << 'EOF'
 server {
     listen 80;
     server_name _;
